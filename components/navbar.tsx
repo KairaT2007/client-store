@@ -13,7 +13,7 @@ const Navbar = async () => {
       <Container>
         <div className="relative px-4 sm:px-6 lg:px-8 flex h-16 items-center">
           <Link href="/" className="ml-4 flex lg:ml-0 gap-x-2">
-            <p className="font-bold text-xl">STORE</p>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Funko.svg/1200px-Funko.svg.png" className="w-[79px]" alt="" />
           </Link>
           <MainNav data={categories} />
           <NavbarActions />
